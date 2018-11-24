@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="SmartChip-ejbPU" transaction-type="JTA">
+    <jta-data-source>jdbc/smartchipds2</jta-data-source>
+    <class>com.smartchip.modele.admin.entity.AdminConnexionEntity</class>
+    <class>com.smartchip.modele.user.entity.CommandeDetailEntity</class>
+    <class>com.smartchip.modele.user.entity.CommandeEntity</class>
+    <class>com.smartchip.modele.user.entity.UserConnexionEntity</class>
+    <class>com.smartchip.modele.utile.entity.ProduitCategorieEntity</class>
+    <class>com.smartchip.modele.utile.entity.ProduitConfigurationEntity</class>
+    <class>com.smartchip.modele.utile.entity.ProduitMarqueEntity</class>
+    <class>com.smartchip.modele.utile.entity.ProduitModeleEntity</class>
+    <class>com.smartchip.modele.utile.entity.ProduitPromotionEntity</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>

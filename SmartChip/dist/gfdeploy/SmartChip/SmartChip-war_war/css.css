@@ -1,0 +1,994 @@
+.top-image
+{
+	background-image:  url("img/header1.jpg") ;
+}
+
+.fontsize
+{
+	font-size: 40px ; ;
+}
+
+.maigre {font-weight:normal;}
+.gras {font-weight:bold;}
+#div_prod ul, #div_app ul {padding-left:0;}
+#div_prod {width:200px;   text-align:center;}
+
+.footer {
+  background-image:url("img/header1.jpg");
+  height: 240px;
+  background-size:100% auto;
+}
+
+
+
+
+
+#footer .social a i {
+  vertical-align: bottom;
+  line-height: 30px;
+}
+#footer .social a.facebook:hover {
+  background-color: #4460ae;
+}
+#footer .social a.gplus:hover {
+  background-color: #c21f25;
+}
+#footer .social a.twitter:hover {
+  background-color: #3cf;
+}
+#footer .social a.instagram:hover {
+  background-color: #cd4378;
+}
+#footer .social a.email:hover {
+  background-color: #4a7f45;
+}
+#copyright {
+  background: #333;
+  color: #ccc;
+  padding: 20px 0;
+  font-size: 12px;
+}
+#copyright p {
+  margin: 0;
+}
+
+
+#footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+#footer ul a {
+  color: #999999;
+}
+#footer .social {
+  text-align: left;
+}
+#footer .social a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  line-height: 26px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  vertical-align: bottom;
+  background-color: #555555;
+}
+.box .box-footer {
+  background: #f7f7f7;
+  margin: 30px -20px -20px;
+  padding: 20px;
+  border-top: solid 1px #eeeeee;
+}
+.box .box-footer:before,
+.box .box-footer:after {
+  content: " ";
+  display: table;
+}
+.box .box-footer:after {
+  clear: both;
+}
+@media (max-width: 991px) {
+  .box .box-footer .btn {
+    margin-bottom: 20px;
+  }
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #4993e4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+img { 
+       -ms-interpolation-mode: bicubic;
+     }
+*/
+
+ul {padding-left:0;}
+
+/*
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('font/OpenSans/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('font/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+http://www.cssmatic.com/box-shadow
+*/
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('font/opensans-light-webfont.eot');
+    src: url('font/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opensans-light-webfont.woff2') format('woff2'),
+         url('font/opensans-light-webfont.woff') format('woff'),
+         url('font/opensans-light-webfont.ttf') format('truetype'),
+         url('font/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('font/opensans-semibold-webfont.eot');
+    src: url('font/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opensans-semibold-webfont.woff2') format('woff2'),
+         url('font/opensans-semibold-webfont.woff') format('woff'),
+         url('font/opensans-semibold-webfont.ttf') format('truetype'),
+         url('font/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('font/opensans-extrabold-webfont.eot');
+    src: url('font/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('font/opensans-extrabold-webfont.woff') format('woff'),
+         url('font/opensans-extrabold-webfont.ttf') format('truetype'),
+         url('font/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/raleway-regular-webfont.eot');
+    src: url('font/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/raleway-regular-webfont.woff2') format('woff2'),
+         url('font/raleway-regular-webfont.woff') format('woff'),
+         url('font/raleway-regular-webfont.ttf') format('truetype'),
+         url('font/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-CondLight';
+    src: url('font/OpenSans-CondLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-CondBold';
+    src: url('font/OpenSans-CondBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, .nav {font:11pt 'OpenSans'; font-weight:normal;}
+
+
+.cont_nav {width:100%; height:43px; background-color:#E9E9E9;}
+.dnav {width:1170px; height:43px; margin:auto; background-color:#E9E9E9;}
+.nav1 {height:43px;}
+.nav1 {background-color:#E9E9E9; color:#AEB2B1; }
+.nav1 li {float:left; border-right:1px solid #DCDCDC; text-align:center;}
+.nav1 li {padding-top:0px; height:43px; color:#656A6D; font-weight:bold; text-transform: uppercase;}
+
+.nav1 li a:hover {background-color:#DCDCDC;}
+.nav1 a {height:43px; color:#656A6D; display:block;}
+
+/*BANDEAU HAUT -------------------------------------------------------------------------------------------------------------------*/
+#li_numtel {width:210px; font-size:16pt; font-weight:bold; background-image: url(../images/icones/tel.png); background-position:0 3px; background-repeat:no-repeat; background-size: 39px 43px; -ms-behavior: url('https://www.labomoderne.com/css/backgroundsize.min.htc'); }
+#texte_numtel {padding-left:26px; padding-top:7px; }
+
+#li_rappel, #li_rappel a {padding-top:0px; text-transform: none; font-weight:normal; text-decoration:none;}
+
+/*mise en attente fonction rappel ----------------------------------*/
+
+/*#li_rappel, #li_rappel a {width:210px; text-align:left; background-image: url(../images/icones/casque.png); background-position:8px 3px; background-repeat:no-repeat; background-size: 45px 37px;}
+#texte_rappel {padding-left:45px; padding-top:0px;}*/
+
+#li_rappel, #li_rappel a {width:210px; text-align:left; text-transform: upper; font-weight:normal; font-size:11pt; font-weight:bold; text-decoration:none; background-color:#BDC3C7;}
+#texte_rappel {padding-left:5px; padding-top:10px; text-align:left; font-size:20pt; font-weight:bold; text-decoration:none; color:#ffffff;}
+
+/*FIN mise en attente fonction rappel* -----------------------------*/
+
+#li_commande {width:290px; padding-top:5px;}
+#li_commande, #li_commande a {width:290px; padding-top:0px; text-transform: upper; font-weight:normal; font-size:11pt; font-weight:bold; text-decoration:none; }
+#texte_commande {padding-left:0px; padding-top:10px;}
+
+#li_catalogue {width:150px; }
+#li_catalogue, #li_catalogue a {width:150px; padding-top:0px; text-transform: upper; font-weight:normal; font-size:11pt; font-weight:bold; text-decoration:none;  }
+#texte_catalogue {padding-left:0px; padding-top:10px;}
+
+#li_contact {width:150px; padding-top:5px; }
+#li_contact, #li_contact a {width:150px; padding-top:0px; text-transform: upper; font-weight:normal; font-size:11pt; font-weight:bold; text-decoration:none;}
+#texte_contact {padding-left:0px; padding-top:10px;}
+
+#li_login, #li_login a {width:80px; background-image: url(../images/icones/login.png); background-position:21px 3px; background-repeat:no-repeat; background-size: 38px 41px; -ms-behavior: url('https://www.labomoderne.com/css/backgroundsize.min.htc');}
+
+#li_panier, #li_panier a {width:80px; background-image: url(../images/icones/panier.png); background-position:16px 3px; background-repeat:no-repeat; background-size: 47px 52px; -ms-behavior: url('https://www.labomoderne.com/css/backgroundsize.min.htc');}
+/*FIN BANDEAU HAUT -------------------------------------------------------------------------------------------------------------------*/
+
+
+/* on oublie les svg cf problemes répertoriés lors des redimensionnements http://caniuse.com/#feat=svg-css */
+/* on oublie aussi les clip rectangle via CSS car cela implique une position absolute qui entraîne de gros soucis en cascade... */
+
+/*
+clip: rect(<top>, <right>, <bottom>, <left>);
+#li_numtel {padding-top:7px;}
+#li_numtel a{
+background-image: url('../images/icones/icones.gif');
+background-position:0 0px;
+background-repeat:no-repeat;
+position: absolute;
+clip: rect(0px, 30px, 30px, 0px); 
+}
+@-moz-document url-prefix() {
+    #li_numtel {margin-top:-20px;vertical-align: top;}
+}
+*/
+
+#container_logo {/*width:1170px; height:50px; margin:auto; margin-top:10px;*/ width:1170px; height:75px; display:block; clear:left;}
+.logo {width:100%; height:75px; text-align:center; background-color:#fff; color:#666b6e;}
+.raleway_s {font:50pt 'Raleway'; font-weight:normal;}
+.raleway_b {font:50pt 'open_sanssemibold'; font-weight:bold;}
+#imglogo {margin-top:10px;}
+
+/*
+#container_onglets_li {clear:left; width:100%; height:50px; background-color:#34495E; margin-top:10px;}
+.nav_onglets {list-style-type:none; width:1170px; height:50px; margin:auto;}
+.nav_onglets li {float:left; font:11pt 'Raleway'; text-align:center;}
+#li_prod {width:200px; height:50px; background-color:#2D3E50; color:#fff;}
+#li_app {width:200px; height:50px; background-color:#C3305C; color:#fff;}
+#li_alpha {width:200px; height:50px; background-color:#85A52A; color:#fff;}
+#li_champ {width:520px; height:50px; background-color:#fff; color:#656A6D; border-top:1px solid #DCDCDC;}
+#li_champ input {width:500px; height:50px; padding-left:20px; background-color:#fff; color:#656A6D; border: 0px solid; outline: 0;}
+#li_rech {width:50px; height:50px; background-color:#2D3E50; background-image: url('../images/icones/icones.gif'); background-position: 29px 28px; background-repeat:no-repeat;}
+.nav_onglets li a{padding-top:7px; display:block; color:#fff; text-decoration:none; text-transform: uppercase;}
+#container_onglets_li .nav_onglets li a:hover {background-color:transparent;}
+*/
+
+
+#container_onglets {width:100%; height:50px; background-color:#34495E;}
+#row_onglets {width:1170px; margin:auto;}
+
+#row_onglets div {padding:0; margin:0; font:11pt 'Raleway'; float:left;}
+#row_onglets a {padding-top:7px; display:block; color:#fff; text-decoration:none; text-transform: uppercase;}
+
+#div_prod {width:200px; height:50px; background-color:#2D3E50; color:#fff; text-align:center;}
+#div_app {width:200px; height:50px; background-color:#C3305C; color:#fff; text-align:center;}
+#div_alpha {width:220px; height:50px; background-color:#36AF96; color:#fff; text-align:center;}
+#div_champ {width:550px; height:50px; background-color:#fff; color:#656A6D;}
+
+#div_prod ul, #div_app ul {padding-left:0;}
+#div_alpha ul {padding-left:25px;}
+
+#searcha {float:left; width:500px; height:50px; padding-left:10px; background-color:#fff; color:#656A6D; font:20pt 'OpenSans'; border: 0px solid; outline: 0; border-top:1px solid #DCDCDC; border-bottom:1px solid #DCDCDC;}
+
+#button_rech {float:left; width:50px; height:50px; background-color:#2D3E50; background-image: url('../images/icones/loupe.png'); background-position: 0px 0px; background-repeat:no-repeat; background-size: 48px 59px; -ms-behavior: url('https://www.labomoderne.com/css/backgroundsize.min.htc');}
+
+.maigre {font-weight:normal;}
+.gras {font-weight:bold;}
+.rondPanier{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    background-color:#D01D54;
+    font-size:9pt;
+    color:#fff;
+    width:20px;
+    height:20px;
+}
+
+/* CAROUSEL
+-------------------------------------------------- */
+#container_carousel {display:block; clear:left; width:100%; margin:0; padding:0;}
+#myCarousel {width:100%; height:500px;}
+
+/* Carousel base class */
+.carousel {
+height: 500px;
+margin-bottom: 0px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+width:100%;
+height: 500px;
+background-color: #777;
+}
+
+.carousel .container {
+min-width: 100%;
+padding:0;
+margin:0;
+}
+
+.carousel-inner > .item > img {
+position: absolute;
+top: 0;
+left: 0;
+  
+min-width: 100%;
+max-height: 500px;
+
+}
+
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+/* ZONE 2
+-------------------------------------------------- */
+#zone2 {display:block; clear:left; width:100%; margin-bottom:10px; background-color:#ECECEC; padding-top:40px; padding-bottom:20px; font-size:9pt; }
+#container_zone2 {width:1170px; height:409px; margin:auto; color:#62656C; font-size:10pt; margin-bottom:20px;}
+#container_zone2 .bloc_produit {width:290px; height:409px; margin:0; margin-right:0; border:none; }
+#container_zone2 .bloc_produit_z2a {width:305px; height:341px; margin:0; margin-right:0; border:none;}
+#container_zone2 .bloc_produit_z2b {width:280px; height:341px; margin:0; margin-right:0; border:none;}
+#container_zone2 .chapeau_produit_z2 {border-bottom:1px solid #fff; }
+#container_zone2 .corps_produit_z2 { height:240px; padding-left:20px; padding-right:20px; margin-top:10px;}
+
+#texte_z2 {position:relative; top:-50px;}
+#cache_texte1 {position:relative; left:-20px; top:190px; width:280px; height:50px; background-image: url(../images/lireplus.png); background-repeat:no-repeat; z-index:100;}
+
+#container_zone2 .bloc_produit_grand {float:left; width:585px; height:409px; margin:0; margin-right:0; border:none; }
+#container_zone2 .chapeau_produit_grand {width:565px; height:67px; margin-left:10px; margin-right:10px; overflow:hidden; font:14pt 'OpenSans'; font-weight:bold; text-align:center; vertical-align:middle; line-height:115%; border-bottom:1px solid #DEDEDE;}
+
+.bloc_produit_z1 .corps_produit {padding-left:10px;}
+.bloc_produit_z1 .chapeau_produit {width:264px; height:68px; overflow:hidden; margin-left:10px; margin-right:0px;}
+.bloc_produit_z1 .prix_produit p {width:180px; }
+
+#zone2 a, #zone2 a:link, #zone2 a:hover, #zone2 a:visited {color:#62656C; text-decoration:none;}
+
+/* ZONE 2
+-------------------------------------------------- */
+
+
+
+/* BLOC PRODUIT
+-------------------------------------------------- */
+#zone3 {display:block; clear:left; width:100%; margin-bottom:10px; background-color:#fff; padding-top:0px; font-size:9pt; }
+#container_produits {width:1170px; margin:auto; color:#62656C; font-size:10pt; padding-top:0px; margin-bottom:20px;}
+#container_produits a, #container_produits a:link, #container_produits a:hover, #container_produits a:visited {color:#62656C; text-decoration:none;}
+#container_produits .bloc_produit {margin-right:30px;}
+#container_produits .bloc_produit_last {margin-right:0;}
+
+.bloc_produit {float:left; width:269px; height:409px; overflow:hidden; background-color:#fff; border:1px solid #DEDEDE; margin-right:21px;}
+.bloc_produit_last {margin-right:0;}
+.chapeau_produit {width:249px; height:68px; overflow:hidden; margin-left:10px; margin-right:10px; font:14pt 'OpenSans'; font-weight:bold; text-align:center; vertical-align:middle; /*display: table-cell;*/ line-height:115%; border-bottom:1px solid #DEDEDE;}
+.corps_produit {width:269px; height:250px; background-size: 230px 230px; -ms-behavior: url('http://www.labomoderne.com/css/backgroundsize.min.htc'); background-position: 20px 20px; background-repeat:no-repeat; overflow:hidden; }
+.corps_produit img {margin-left:20px; margin-top:10px;}
+.promotion {width:140px; height:20px; background-color:#C72557; color:#fff; text-align:center; position:relative; top:20px; z-index:100;}
+.nouveaute {width:140px; height:20px; background-color:#85A52A; color:#fff; text-align:center; position:relative; top:20px; z-index:100;}
+
+.infos_produit {width:269px; height:150px;}
+.modeles_produit {float:left; width:94px; height:150px;}
+.boite_modele {width:70px; height:70px; margin:10px; border:1px solid #DEDEDE; text-align:center;}
+.nombre_modeles {font-size:26pt; font-weight:bold; display:inline; padding-bottom:0px;}
+.m_modeles {font-size:10pt; line-height:0px;}
+
+#form_catalogue {margin:0; padding:0;}
+.liste_st_gammes_cat {margin-top:-10px;}
+
+.bas_catalogue {padding:5px; font-size:10pt; text-align:center;}
+.bas_catalogue img {width:8%; vertical-align:middle; border:none;}
+
+.prix_produit p {width:160px; padding:0; margin:0; padding-top:5px; border-bottom:1px solid #DEDEDE; font-weight:bold;}
+.prix_produit {float:left; width:175px; height:150px;}
+.prix {font-size:18pt; color:#314359; font-weight:bold; line-height:8px;}
+.apartirde {padding-bottom:5px;}
+.conditionnement {padding-top:5px;}
+
+/* BLOC PRODUIT
+-------------------------------------------------- */
+
+/* BLOC ZOOM
+-------------------------------------------------- */
+#container_zoom {display:block; clear:left; width:100%; height:470px; color:#62656C; font-size:10pt; margin-top:50px; margin-bottom:60px; background-image:url('../images/fond_zone_4.jpg'); background-repeat:x-repeat;}
+#container_zoom a, #container_zoom a:link, #container_zoom a:hover, #container_zoom a:visited {color:#62656C; text-decoration:none;}
+#int_zoom {width:1170px; height:520px; margin:auto; }
+#bloc_produit_zoom {float:left; width:500px; height:520px; background-color:#fff; box-shadow: 0px 3px 10px #969696;}
+.chapeau_produit_zoom {width:440px; height:60px; overflow:hidden; margin-left:50px; margin-right:10px; padding-top:10px; font-size:14pt; font-weight:bold; text-align:left; text-transform:uppercase;}
+.corps_produit_zoom {width:370px; height:370px; padding-left:0px; padding-top:10px; background-position: 0px 0px; background-repeat:no-repeat; overflow:hidden; margin:auto;}
+.infos_produit_zoom {width:269px; height:150px; margin-left:50px;}
+#bloc_info_zoom {float:left; width:450px; height:240px; padding-top:30px; padding-left:50px; padding-right:0px; margin-top:90px; margin-left:80px; border-top:5px solid #9DC030; overflow:hidden; background-color:#fff; }
+.promotion_zoom {width:200px; height:40px; background-color:#C72557; color:#fff; font-size:21pt; text-transform:uppercase; text-align:center; position:relative; top:0px; left:170px; z-index:100;}
+
+#texte_zoom {position:relative; top:-60px;}
+#cache_texte_zoom {position:relative; left:-20px; top:160px; width:450px; height:50px; background-image: url(../images/lireplus.png); background-repeat:no-repeat; z-index:100;}
+
+
+/* BLOC ZOOM
+-------------------------------------------------- */
+
+/* BLOC ACTU
+-------------------------------------------------- */
+
+#zone_actu {display:block; clear:left; width:100%; margin-top:60px; margin-bottom:30px; background-color:#fff; }
+#container_actu {width:1170px; margin:auto;}
+#container_actu a, #container_actu a:link, #container_actu a:hover, #container_actu a:visited {color:#62656C; text-decoration:none;}
+#container_actu img {border:none;}
+.actu {width:370px; height:280px; float:left; margin-right:30px;}
+.last_actu {margin-right:0;}
+.actu_img {width:370px; height:148px; overflow:hidden;}
+.actu_texte {width:370px; height:140px; overflow:hidden;}
+.titre_actu {font-weight:bold;}
+.corps_actu {}
+                        
+/* BLOC ACTU
+-------------------------------------------------- */
+
+
+
+/* footer
+-------------------------------------------------- */
+
+.container_footer {width:100%; background-color:#2E4A5F; display:block; clear:left; padding-top:50px; padding-bottom:50px;}
+#bas {width:1170px; margin:auto; font-size:9pt; background-color:#2E4A5F;}
+
+#footer_labo {float:left; width:310px; height:400px; background-color:#2E4A5F; color:#fff; border-right:solid 1px #767779;}
+.footer_div {float:left; width:215px; height:400px; padding-left:20px; padding-right:20px; background-color:#2E4A5F; color:#fff; border-right:solid 1px #767779;}
+.footer_div_last {float:left; width:215px; padding-left:20px; background-color:#2E4A5F; color:#fff; }
+
+#bas ul {list-style-type:none; padding-left:0px; padding-bottom:20px;}
+#bas ul li {margin-bottom:10px; }
+.titre_footer {font-size:11pt; text-transform:uppercase; text-align:center; margin-bottom:20px;}
+
+#fin {clear:left; width:100%; height:70px; background-color:#283f4F; color:#fff;}
+#fin p {width:1170px; color:#6B7C8E; margin:auto; padding-top:20px;}
+
+#footer_fr, #footer_be {display:block; clear:left;}
+#footer_be {padding-top:20px;}
+#flag_fr {float:left; width:41px; height:100px;  background-image: url('../images/flag/fr.png'); background-position: 0px 0px; background-repeat:no-repeat; background-size: 41px 27px; -ms-behavior: url('https://www.labomoderne.com/css/backgroundsize.min.htc');}
+#footer_texte_fr {float:left; width:220px; padding-left:20px;}
+#flag_be {float:left; width:41px; height:100px; background-image: url('../images/flag/be.png'); background-position: 0px 0px; background-repeat:no-repeat; background-size: 41px 27px; -ms-behavior: url('https://www.labomoderne.com/css/backgroundsize.min.htc');}
+#footer_texte_be {float:left; width:220px; padding-left:20px;}
+
+.dspn {display:none;}
+                                
+/* footer
+-------------------------------------------------- */
+
+
+/* ssthemes ---------------------------------------*/
+
+#container_ssthemes {width:100%; margin-bottom:50px;}
+#div_sst {width:1170px; margin:auto;}
+#container_ssthemes a, #container_ssthemes a:link, #container_ssthemes a:hover, #container_ssthemes a:visited {color:#62656C; text-decoration:none;}
+
+#lateral {float:left; width:295px; margin-top:63px;}
+#lateral_themes {float:left; width:295px; margin-top:0px;}
+#droite {float:right; width:875px;}
+
+#lateral ul, #lateral_themes ul {list-style-type:none; padding:0; margin:0; }
+
+#autres_categories {background-color:#E9E9E9; padding-top:10px; margin-right:15px;}
+#selection {background-color:#E9E9E9; padding-left:20px; padding-top:10px; margin-right:15px;}
+#selection {margin-bottom:10px;}
+
+#ul_liste_st {margin-bottom:0; padding-bottom:0;}
+#ul_liste_st li {height:35px; text-transform: uppercase; padding-left:27px; padding-top:8px;}
+#ul_liste_st .this_liste_lien_st {background-color:#34495E; color:#fff; padding-left:0px;}
+#ul_liste_st .this_liste_lien_st a, #ul_liste_st .this_liste_lien_st a:link, #ul_liste_st .this_liste_lien_st a:visited {color:#fff;}
+#ul_liste_st .glyphicon {padding-left:5px; font-size:10pt; font-weight:normal; }
+#ul_liste_st .liste_lien_filtres {height:45px; padding-top:5px;}
+.liste_lien_st:hover{
+background-color:#DCDCDC;
+}
+.lien_affine_selection {cursor:pointer;}
+.class_affine_selection {padding-left:27px; line-height:150%; font-size:8pt;text-transform:none; cursor:pointer;}
+.class_affine_selection2 {padding-left:0px; line-height:150%; font-size:8pt;text-transform:none; cursor:pointer;}
+
+#categories {background-color:#f2f2f2; padding-left:20px; padding-top:10px; margin-right:15px; border:1px solid #DCDCDC;}
+#liste_st_gammes {list-style-type:none; padding-left:0;}
+#liste_st_gammes li {float:left; width:269px; height:409px; margin-bottom:20px;}
+
+.titre_filtre {width:95%; font-weight:bold; border-bottom:1px solid #AEB2B1;}
+.lateral_filtre label {font-weight:normal;}
+
+#liste_st_gammes li.bloc_produit {margin-right:34px;}
+#liste_st_gammes li.bloc_produit_last {margin-right:0;}
+
+#grand_titre_droite {padding-top:0px; margin-top:0px; position:relative; left:-293px;}
+#grand_titre_droite h1 {padding-top:0px; margin-top:0px;}
+
+/* ssthemes -----------------------------*/
+
+.handcursor {cursor:pointer;}
+h1, h2 {font-size:22pt;}
+
+
+/* autocomplete ------------------------------ */
+.ui-autocomplete-loading { background: white url('js/ui-anim_basic_16x16.gif') right center no-repeat; }
+.ui-autocomplete li {
+    width:100%;
+    height:40px;
+    border-top:1px solid #AEB2B1;
+	}
+.ui-autocomplete {
+	margin-top:10px;
+	list-style:none;
+	width:300px; 
+	height:auto; max-height:300px; overflow:auto;
+	background-color:#ececec;
+	font-size:12pt;
+	z-index:200;
+}
+.ui-menu .ui-menu {
+	margin-top: 3px;
+}
+.ui-menu .ui-menu-item {
+	margin:0;
+	padding: 0;
+	float: left;
+	clear: left;
+}
+.ui-menu .ui-menu-item a {
+	text-decoration:none;
+        color:#656A6D;
+	display:block;
+	padding:.2em .4em;
+	line-height:1.5;
+	cursor:pointer;
+}
+.ui-menu .ui-menu-item:hover {
+background-color:#DCDCDC;
+}
+
+.ui-menu, .ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+}
+.ui-menu-item a.ui-state-hover {
+	text-decoration:underline;
+}
+
+#ul_rech_recentes {display:none;}
+.li_rech_recente {text-align:center; border-top:1px dashed #000; width:100%; border-bottom:1px dashed #000; width:100%; font-weight:bold;display:block;}
+.ajout_li {display:block;clear: left; float: left; padding: 2px 5px;}
+.ajout_li a, .ajout_li a:link, .ajout_li a:active, .ajout_li a:visited {color:#2594b4; text-decoration:none;}
+.ajout_li a:hover {color:#2594b4; text-decoration:underline;}
+
+
+.ui-autocomplete {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default;
+}
+.ui-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	outline: none;
+}
+.ui-menu .ui-menu {
+	position: absolute;
+}
+
+.titre_lat_rech {padding-left:28px; font-weight:bold;}
+
+/* ------------------ */
+
+
+#sub1 {width:1170px; height:52px; float:left; position:relative; left:0px; top:7px; background-color:#2D3E50; opacity: 0; display: none; z-index:500; list-style-type: none;}
+#sub2 {width:1170px; height:52px; float:left; position:relative; left:-200px; top:7px; background-color:#C3305C; opacity: 0; display: none; z-index:500; list-style-type: none;}
+#sub3 {width:1170px; height:52px; float:left; position:relative; left:-400px; top:7px; background-color:#36AF96; opacity: 0; display: none; z-index:500; list-style-type: none;}
+
+#sub3 li {float:left; font:11pt 'open_sanssemibold'; width:44px; padding-top:5px;}
+
+#sub1 li {float:left; font:11pt 'open_sanssemibold'; width:120px; height:47px; text-align:center; padding-top:5px; padding-left:10px; padding-right:5px; overflow:hidden;}
+#sub1 .double-line {line-height: 15px; padding-top:10px;}
+#sub1 .simple-line {padding-top: 15px;}
+#sub1 li:first-child {padding-left:7px; background-image:none;}
+
+#sub2 li {float:left; font:10pt 'open_sanssemibold'; width:120px; height:47px; text-align:center; padding-top:5px; padding-left:0px; padding-right:0px; overflow:hidden;}
+#sub2 .double-line {line-height: 15px; padding-top:10px;}
+#sub2 .simple-line {padding-top: 15px;}
+#sub2 li:first-child {padding-left:7px; background-image:none;}
+
+#sub1 a, #sub2 a {display:block; text-transform:none;}
+#sub1 .titre_sub_li:hover {cursor:pointer; color:#7eade3;}
+#sub2 .titre_sub_li:hover {cursor:pointer; color:#f496b1;}
+#sub3 .lettres_alphabet:hover {cursor:pointer; color:#a9c853;}
+
+#sub1 .p_sub_cat {text-align:left; color:#233444; text-transform:uppercase; padding-left:15px;}
+#sub2 .p_sub_cat {text-align:left; color:#ad2950; text-transform:uppercase; padding-left:15px;}
+
+/*
+#sub1 .subsub a {display:inline; font-size:12pt; color:#656A6D;}
+#sub2 .subsub a {display:inline; font-size:12pt; color:#656A6D;}
+#sub3 .subsub a {display:inline; font:14px 'OpenSans-CondBold'; color:#666b6e;}
+*/
+
+#sub1 .subsub a {display:inline; font:12pt 'OpenSans'; font-weight:600; color:#000000;}
+#sub2 .subsub a {display:inline; font:12pt 'OpenSans'; font-weight:600; color:#000000;}
+#sub3 .subsub a {display:inline; font:16px 'OpenSans-CondLight'; color:#666b6e; font-weight:600;}
+
+#sub1 .subsub, #sub2 .subsub {font:14pt 'open_sanssemibold'; border:1px solid #000; border-top:none;}
+#sub3 .subsub {font:15pt 'OpenSans-CondLight'; border:1px solid #000; border-top:none;}
+
+#row_onglets .subsub {width:1170px; height:auto; background-color:#FFFFFF; position:absolute; padding-top:18px; padding-bottom:15px; left:0px; top:52px; opacity: 0; display: none; z-index:2000; box-shadow: 3px 3px 10px #969696; border-style: solid; border-width: 0px;}
+#row_onglets .subsub li {text-align:left; float:left; line-height:15px; width:280px; height:auto; margin:0; padding:0; padding-left:10px; padding-right:10px; padding-bottom:0px;}
+#row_onglets .subsub li a, #row_onglets .subsub li a:active, #row_onglets .subsub li a:link {padding-left:0px; padding-right:0px; padding-bottom:0px;}
+
+#row_onglets .subsub a:hover {cursor:pointer; color:#4F81BB; text-decoration:underline; }
+
+/*
+#row_onglets .subsub .titre_theme { background-image:url(images/plus.gif);  background-position: 0 3px; background-repeat:no-repeat; padding-left:15px; }
+#row_onglets .subsub .titre_theme, #nav .subsub .titre_theme a, #nav .subsub .titre_theme a:active, #nav .subsub .titre_theme a:link, #nav .subsub .titre_theme a:visited {color:#1f8983; font-weight:bold;}
+#row_onglets .subsub .titre_soustheme {color:#2594b4;}
+
+#row_onglets .subsub .titre_soustheme {padding-left:0px;}
+#row_onglets .subsub .titre_soustheme a, #nav .subsub .titre_soustheme a:active, #nav .subsub .titre_soustheme a:link{color:#2594b4; text-decoration:none;}
+#row_onglets .subsub .titre_soustheme a:hover{text-decoration:underline;}
+
+
+#row_onglets .subsub .titre_theme_panneau {margin-top:10px; padding-left:0px; margin-left:0px;}
+#row_onglets .subsub .titre_theme_panneau, .subsub .titre_theme_panneau a, .subsub .titre_theme_panneau a:active, .subsub .titre_theme_panneau a:link, .subsub .titre_theme_panneau a:visited {font-weight:normal;}
+#row_onglets .subsub .titre_soustheme_panneau {color:#000;}
+
+#row_onglets .subsub .titre_soustheme_panneau { padding-left:15px;}
+#row_onglets .subsub .titre_soustheme_panneau a, .subsub .titre_soustheme_panneau a:active, .subsub .titre_soustheme_panneau a:link{text-decoration:none;}
+#row_onglets .subsub .titre_soustheme_panneau a:hover{text-decoration:underline;}
+*/
+
+/*.cache {width:291px; height:auto; }*/
+.ulcache {width:230px; float:left; text-align:left; padding-left:5px; list-style-type: none;}
+.ulcache li {width:230px; font-size:14pt;}
+.ulcache a, .ulcache a:active, .ulcache a:link {  }
+
+#sub1 .ulcache li {height:24px;}
+#sub2 .ulcache li {height:22px;}
+
+.listes_lettres {list-style-type:none; float:left; }
+#div_alpha ul .listes_lettres {padding-left:0px;}
+
+#sub3 .subsub li {width:290px; height:22px; overflow:hidden;}
+#row_onglets .listes_lettres li a {text-transform:none;}
+.listes_lettres li {/*float:left;*/}
+
+#sub3 li .qlettres, #sub3 li .qlettres a {margin-top:10px; width:44px; text-align:center;}
+
+#sub3 .listes_lettres li {clear:left;}
+
+
+/* ------------------  */
+
+/** frame ***/
+#droite_interne {width:1170px;}
+#frameint {float:left; width:100%; border:none;}
+
+/** produits **/
+#droite_produit {width:1170px;}
+
+#bloc_g {float:left; width:400px;}
+
+
+#bloc_d {float:left; width:770px;}
+#bloc_h {}
+#txt_prod {float:left; width:480px; height:220px; overflow:hidden; position: relative; font-size:11pt; padding-right:20px; padding-left:18px;}
+#txt_prod .ulbdd {list-style-type: square; }
+#txt_prod .ulbdd li { text-indent:0px;}
+
+#lireplus {position:absolute; padding-left:0px; left:0px; top:170px; width:480px; height:50px; padding-top:20px; cursor:pointer; text-decoration:underline; background-image: url(../images/lireplus.png); background-repeat:no-repeat;}
+#liremoins {padding-left:0px; padding:0; margin:0; display: none; cursor:pointer; text-decoration:underline; }
+#temoin_texte {position:absolute;}
+
+#autres_prod {float:left; padding-left:20px; width:270px; font-size:11pt;}
+
+#bloc_prix {width:270px; height:115px; background-color:#fff; color:#666b6e; border:1px solid #c1c1c1; margin-bottom:5px;}
+#bpg {padding-left:20px;}
+#titre_refgamme {text-align:center;}
+#nbmodeles {float:left; border-bottom:1px solid #c1c1c1; width:120px;}
+#mentionspe {float:right; width:118px; height:22px; padding-top:2px; background-color:#d43e61; color:#fff; text-align:center; text-transform:uppercase; font-size:10pt; font-weight:bold; }
+#mentionspenul {background-color:#fff;}
+
+#apartir_gamme {clear:left; padding-bottom:5px;}
+#prix_gamme {font-size:16pt; color:#314359; font-weight:bold; line-height:8px;}
+#prix_gamme sup {font-size:9pt;}
+#condit_gamme {padding-top:5px;}
+
+/** p1 **/
+#titre_blanc {float:left; width:148px;}
+#titre_refgamme_p1 {float:left; width:100px; height:21px; background-color:orange; color:#000; font-size:9pt; text-align:center;}
+
+#p1g {float:left; width:148px;}
+#p1d {float:left; width:100px; height:70px; padding-top:15px; background-color:orange; color:#fff; font-family: 'open_sansextrabold'; font-size:17pt; text-align:center;}
+#p2d {float:left; width:100px; height:70px; padding-top:0px; background-color:orange; color:#fff; text-align:center; font-size:10pt;}
+#prix_raye {color:#000; text-decoration: line-through;}
+#prix_promo {font-family: 'open_sansextrabold'; font-size:12pt;}
+#condit {color:#000; font-size:9pt;}
+/** p1 **/
+
+#bloc_pdf {width:270px; height:115px; background-color:#e9e9e9; color:#e9e9e9; border:1px solid #c1c1c1;}
+#gpdf {float:left; width:128px; height:113px; background-image: url(../images/fpdf.jpg); background-position:0 0px; background-repeat:no-repeat; position:relative;}
+.img_gammes_pdf {width:77px; height:91px; position:absolute; top:8px; left:12px;}
+#dpdf {float:left; width:130px; height:115px; padding-left:10px; padding-top:20px; font-size:10pt; color:#999; }
+
+/** p2 **/
+#prix_raye_p2 {padding-top:5px; color:#000; text-decoration: line-through;}
+
+/** p3 **/
+#p3d {float:left; width:100px; height:70px; padding-top:0px; background-color:orange; color:#fff; text-align:center; font-size:9pt;}
+#promo_p3 {font-family: 'open_sansextrabold'; font-size:12pt;}
+#prix_raye_p3 {color:#000; text-decoration: line-through;}
+#prix_promo_p3 {line-height:10px;}
+/** p3 **/
+
+#bloc_b {clear:both;}
+
+#main_img {width:230px; height:230px;}
+
+
+/*
+#sm_img .slides_container {
+	float:left;
+	width:272px;
+	height:57px;
+	overflow:hidden;
+		}
+#sm_img .slides_container li {width:272px; height:53px;}
+*/
+
+#sm_img .pagination {
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:none;
+		}
+#sm_img a.prev,  #sm_img a.next {width:35px; margin-top:20px;float:left;}
+#sm_img a.next {padding-left:10px;}
+
+#sm_img {padding-top:10px; width:360px; height:90px; padding-left:10px; overflow:hidden;}
+#sm_img ul {list-style-type:none; width:272px; height:67px; overflow:hidden; float:left; margin-left:0px; margin-right:0px;}
+#sm_img li {width:272px; height:57px; }
+.imagette {float:left; width:63px; height:55px; border:1px solid #D3D3D3; text-align:center; margin-right:5px;}
+
+/*
+#sm_img ul {float:left; width:245px;}
+#prevBtn {float:left; width:20px; height:55px; }
+#nextBtn {float:left; width:20px; height:55px;}
+*/
+
+/** produits **/
+
+/** tarifs **/
+/** ne pas modifier ------------------------------------------------------------------------------------------------------------- **/
+#tableau_tarifs {width:779px; height:32px; list-style-type:none;}
+#tarif_produit, #tarif_tele {width:178px; height:34px; float:left; text-align:center; padding-top:8px; font-size:8pt; background-color:#eee; color:#50535A; font-weight:bold;}
+#tarif_produit:hover, #tarif_tele:hover {background-color:#c6cdce; color:#fff; height:34px;}
+#tarif_produit {color:#fff;}
+
+#tarif_produit .subtarif1 {position:relative; left:0px; top:5px;}
+#tarif_tele .subtarif {position:relative; left:-178px; top:5px; opacity: 0; display: none;}
+
+.subtarif {width:770px; background-image:none; padding-bottom:10px; text-align:left; background-color:#f5f5f5; color:#000; font-weight:normal; font-size:9pt; opacity: 0; display: none;}
+.subtarif1 {width:770px; background-image:none; padding-bottom:10px; text-align:left; background-color:#f5f5f5; color:#000; font-weight:normal; font-size:9pt; }
+/** ne pas modifier ------------------------------------------------------------------------------------------------------------- **/
+
+.tarif_tableau_tableau {width:770px; color:#000; display:block;}
+.tarif_tableau_tableau td {height:36px;}
+
+.tarif_tableau_ref {width:100px; height:36px; padding-left:5px; color:#fff; font-weight:bold; background-color:#c8cace;}
+.tarif_tableau_design {width:300px; height:36px; vertical-align:middle; color:#fff; font-weight:bold;  background-color:#c8cace; }
+.tarif_tableau_dispo {width:80px; height:36px; vertical-align:middle; color:#fff; font-weight:bold;  background-color:#c8cace; text-align:center;}
+.tarif_tableau_unite {width:80px; height:36px; vertical-align:middle; color:#fff; font-weight:bold; text-align:center;  background-color:#c8cace;}
+.tarif_tableau_prix {width:80px; height:36px; vertical-align:middle; font-weight:bold; color:#fff; background-color:#c8cace; text-align:center;}
+.tarif_tableau_quantite {width:35px; height:36px; vertical-align:middle; font-weight:bold; color:#fff; font-weight:bold;  background-color:#c8cace;}
+.tarif_tableau_com {width:94px; height:36px; vertical-align:middle; color:#fff; font-weight:bold;  background-color:#c8cace;}
+
+.tarif_tableau_tableau .tarif_tableau_ref, .tarif_tableau_tableau .tarif_tableau_design, .tarif_tableau_tableau .tarif_tableau_dispo, .tarif_tableau_tableau .tarif_tableau_unite, .tarif_tableau_tableau .tarif_tableau_prix, .tarif_tableau_tableau .tarif_tableau_quantite {vertical-align:middle;}
+
+.item_tableau_ref {background-color:#e5e5e5; padding-left:5px; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; font-weight:bold; vertical-align:middle;}
+.item_tableau_titre {background-color:#e5e5e5; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; overflow:auto; vertical-align:top;}
+.item_tableau_ref_intitule {background-color:#e5e5e5; padding-left:5px; font-weight:bold; margin-top:5px;}
+.item_tableau_condit {background-color:#e5e5e5; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; text-align:center; }
+.item_tableau_dispo {background-color:#e5e5e5; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; text-align:center; }
+.item_tableau_prix {background-color:#e5e5e5; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; font-weight:bold; text-align:center; }
+.item_tableau_ajout {width:94px; background-color:#297fb8; border-bottom:4px solid #fff; color:#fff; text-align:center; }
+.item_ajout {color:#fff;}
+.temoin {border:none; font-size:9pt; width:23px; height:18px; text-align:center; background-color:#fff;}
+
+
+.tab_opt_cache {width:768px; color:#000; display:block;}
+.tab_opt_cache td {height:36px; }
+.options {background-color:#cecece;}
+.tg {background-color:#f5f5f5; }
+
+.o_ref {width:100px; padding-left:5px; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; padding-top:5px; font-weight:bold;}
+.o_titre {width:300px; padding-left:5px; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; padding-top:5px;}
+.o_dispo {width:80px; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; text-align:center; }
+.o_condit {width:80px; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; text-align:center; }
+.o_prix {width:80px; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; font-weight:bold; text-align:center; }
+.o_qte {width:35px; border-right:1px solid #d7d7d7; border-bottom:4px solid #fff; font-weight:bold; text-align:center; }
+.o_ajout {width:94px; background-color:#297fb8; color:#fff; text-align:center; }
+
+.td_mention_idf {background-color:#e5e5e5; width:100px; height:20px; border-right:1px solid #d7d7d7;}
+.td_mention_titre {background-color:#e5e5e5; width:280px; height:20px; padding-left:5px; border-right:1px solid #d7d7d7;}
+.td_mention_condit {background-color:#e5e5e5; width:80px; height:20px; border-right:1px solid #d7d7d7;}
+.td_mention_prix {background-color:#e5e5e5; width:80px; height:20px; border-right:1px solid #d7d7d7;}
+.td_mention_dispo {background-color:#e5e5e5; width:80px; height:20px; border-right:1px solid #d7d7d7;}
+.td_mention_qte {background-color:#e5e5e5; width:35px; height:20px; border-right:1px solid #d7d7d7;}
+.td_mention_ajout {width:94px; height:20px; background-color:#297fb8;}
+
+.divopt {background-color:#7e7d8b; color:#fff; margin-left:0; padding-left:5px; height:19px; padding-top:1px; text-transform:uppercase; cursor:pointer;}
+.item_tableau_mentionspe {background-color:orange; color:#fff; font-weight:bold; margin-left:0; padding-left:5px; height:19px; padding-top:1px; padding-bottom:5px; text-transform:uppercase;}
+
+.item_tableau_titre_groupe {background-color:#297fb8; color:#fff; font-weight:bold; padding-left:5px; padding-top:7px; border-bottom:4px solid #fff;}
+
+.tarif_tableau_tableau .item_tableau_options {height:19px;}
+.tarif_tableau_tableau .td_vide {height:20px;}
+.tarif_tableau_tableau .td_mention_titre {height:20px; padding-left:0;}
+
+.div_item_txt {padding-left:5px;}
+
+.item_tableau_options {/*background-color:#4db1ff;*/ /*background-color:#afafaf;*/ background-color:#c8c8c8; color:#fff; font-weight:bold; padding-left:5px; padding-top:1px; border-bottom:4px solid #fff; cursor:pointer;}
+.item_tableau_item_option {background-color:#c8ebfe; color:#fff; font-weight:bold; padding-left:5px; padding-top:7px; border-bottom:4px solid #fff;}
+
+.tr_cache {}
+.td_vide {border-bottom:4px solid #fff;}
+
+.inter_telechargement {padding-left:0px;}
+.inter_telechargement p {width:100%;}
+.titre_doc_telechargement {width:770px; height:30px; margin:0; padding:0; background-color:#26A4CC; color:#fff; font-weight:bold; padding-left:5px; padding-top:5px;}
+.inter_telechargement  a, .inter_telechargement a:link, .inter_telechargement a:active, .inter_telechargement a:visited{color:#31A1AF; text-decoration:none;}
+.inter_telechargement a:hover{color:#31A1AF; text-decoration:underline;}
+
+.onglet_tab_tarif {cursor:pointer; height:24px; }
+
+.blc {color:#fff;}
+.vrt {color:#44b132;}
+.rge {color:#d31014;}
+
+/** tarifs **/
+
+/** general **/
+#ariane {padding-top:10px; padding-bottom:10px;}
+#ariane a, #ariane a:active, #ariane a:link, #ariane a:visited {text-decoration:underline;}
+
+#div_desc { padding-bottom:20px;}
+
+#div_desc .div_int_desc.short_view { height:40px;overflow:hidden; }
+#div_desc .div_int_desc.full_view { height:auto;}
+#btn_replier_txt {text-decoration:underline; color:red; cursor:pointer;}
+#span_desc_full .lire_txt_full{text-decoration:underline; color:red; cursor:pointer;} 
+#span_desc_full .petits_points {color:#000;}
+#suite_full_txt {display:none;}
+#suite_full_txt li{margin-left:20px;}
+
+
+
+
+
+.nbsp {clear:both; width:90%; height:10px;}
+.nbsp1 {clear:both; width:90%; height:20px;}
+.nbsp2 {clear:both; width:90%; height:10px;}
+.gras {font-weight:bold;}
+.souligne {text-decoration:underline;}
+.raye {text-decoration:line-through;}
+
+/** general **/
+
+#haut_print, #logodprint {background-color:#f4f5f9;}
+
+.asterisque {color:#fe2e2e; top : -5px; font-size : 7px;}
+
+
+#nepasmanquer {display:block; clear:both;}
+.nmanque {width:270px; height:196px; float:left; border:1px solid #919296; margin-bottom:20px; }
+.margeleft {margin-left:29px;}
+.titre_nmanque {width:250px; height:65px;  font-size:13pt; margin-left:10px; margin-right:10px; margin-bottom:5px; border-bottom:1px solid #919296; text-align:center;}
+.nmanque_img {width:110px; height:110px; margin-left:10px; margin-right:10px; float:left;}
+.nmanque_titre {width:120px; float:left;}
+
+.nmkp_bpg {padding-left:0px; font-size:10pt;}
+.nmkp_titre_refgamme {text-align:left; font-weight:bold; border-bottom:1px solid #c1c1c1; }
+.nmkp_nbmodeles {float:left; width:130px; margin-bottom:10px;}
+.nmkp_mentionspe {float:right; width:118px; height:22px; padding-top:2px; background-color:#d43e61; color:#fff; text-align:center; text-transform:uppercase; font-size:10pt; font-weight:bold; margin-bottom:5px;}
+.nmkp_mentionspenul {float:right; width:118px; height:22px; padding-top:2px; background-color:#fff; margin-bottom:5px;}
+
+.nmkp_apartir_gamme {clear:left; }
+.nmkp_prix_gamme {width:130px; font:16pt 'OpenSans-CondLight'; color:#314359; font-weight:bold; line-height:8px;}
+.nmkp_prix_gamme sup {font-size:9pt;}
+.nmkp_condit_gamme {padding-top:5px;}
+
+/** p1 **/
+.nmkp_titre_blanc {float:left; width:148px;}
+.nmkp_titre_refgamme_p1 {float:left; width:100px; height:21px; border-bottom:1px solid #c1c1c1;  background-color:orange; color:#000; font-size:9pt; text-align:center;}
+
+.nmkp_p1g {float:left; width:148px;}
+.nmkp_p1d {float:left; width:100px; height:70px; padding-top:15px; background-color:orange; color:#fff; font-family: 'open_sansextrabold'; font-size:17pt; text-align:center;}
+.nmkp_p2d {float:left; width:100px; height:70px; padding-top:0px; background-color:orange; color:#fff; text-align:center; font-size:10pt;}
+.nmkp_prix_raye {color:#000; text-decoration: line-through;}
+.nmkp_prix_promo {font-family: 'open_sansextrabold'; font-size:12pt;}
+.nmkp_condit {color:#000; font-size:9pt;}
+/** p1 **/
+
+/** p2 **/
+.nmkp_prix_raye_p2 {padding-top:5px; color:#000; text-decoration: line-through;}
+
+/** p3 **/
+.nmkp_p3d {float:left; width:100px; height:70px; padding-top:0px; background-color:orange; color:#fff; text-align:center; font-size:9pt;}
+.nmkp_promo_p3 {font-family: 'open_sansextrabold'; font-size:12pt;}
+.nmkp_prix_raye_p3 {color:#000; text-decoration: line-through;}
+.nmkp_prix_promo_p3 {line-height:10px;}
+/** p3 **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
